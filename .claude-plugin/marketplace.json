@@ -11,8 +11,8 @@
     {
       "name": "receipt-processor",
       "source": {
-        "source": "github",
-        "repo": "PartnerAI-Labs/receipt-processor"
+        "source": "url",
+        "url": "https://github.com/PartnerAI-Labs/receipt-processor.git"
       },
       "description": "Process business receipts, verify via web UI, and upload to QuickBooks Online",
       "version": "0.1.1"
