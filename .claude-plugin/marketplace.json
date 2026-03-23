@@ -2,20 +2,27 @@
   "name": "partnerai-cowork",
   "owner": {
     "name": "PartnerAI Labs",
+    "url": "https://github.com/PartnerAI-labs",
     "email": "giusippi.apaii@partnerai.ai"
   },
   "metadata": {
-    "description": "PartnerAI tools and workflows for Claude Code"
+    "description": "PartnerAI plugin marketplace for Claude Cowork — productivity plugins for freelancers and small businesses",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "receipt-processor",
       "source": {
         "source": "url",
-        "url": "https://github.com/PartnerAI-Labs/receipt-processor.git"
+        "url": "https://github.com/PartnerAI-labs/receipt-processor.git"
       },
-      "description": "Process business receipts, verify via web UI, and upload to QuickBooks Online",
-      "version": "0.1.1"
+      "description": "Process business receipts from photos, verify extractions via web UI, and optionally upload expenses to QuickBooks Online. Built for UK sole traders and small businesses.",
+      "version": "1.0.0",
+      "category": "finance",
+      "tags": ["receipts", "bookkeeping", "quickbooks", "expenses", "vat"],
+      "requires": {
+        "node": ">=18.0.0"
+      }
     }
   ]
 }
