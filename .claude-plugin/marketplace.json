@@ -15,7 +15,7 @@
         "repo": "PartnerAI-Labs/receipt-processor"
       },
       "description": "Process business receipts, verify via web UI, and upload to QuickBooks Online",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
