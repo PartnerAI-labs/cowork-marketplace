@@ -1,0 +1,21 @@
+{
+  "name": "partnerai-cowork",
+  "owner": {
+    "name": "PartnerAI Labs",
+    "email": "giusippi.apaii@partnerai.ai"
+  },
+  "metadata": {
+    "description": "PartnerAI tools and workflows for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "receipt-processor",
+      "source": {
+        "source": "github",
+        "repo": "PartnerAI-Labs/receipt-processor"
+      },
+      "description": "Process business receipts, verify via web UI, and upload to QuickBooks Online",
+      "version": "0.1.0"
+    }
+  ]
+}
